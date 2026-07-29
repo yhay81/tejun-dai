@@ -1,0 +1,16 @@
+{
+  "name": "手順台",
+  "short_name": "手順台",
+  "description": "写真から作業手順書をつくる",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#d8dde0",
+  "theme_color": "#30465b",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
