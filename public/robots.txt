@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://tejun-dai.yhay81.com/sitemap.xml
+

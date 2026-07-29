@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0v36" fill="none" stroke="#30465b" stroke-opacity=".08"/>
+    </pattern>
+    <filter id="shadow"><feDropShadow dx="12" dy="14" stdDeviation="3" flood-opacity=".28"/></filter>
+  </defs>
+  <rect width="1200" height="630" fill="#d8dde0"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect x="65" y="60" width="1070" height="510" rx="20" fill="#30465b"/>
+  <g transform="translate(105 101)">
+    <rect width="56" height="56" fill="#fffdf8" stroke="#17242e" stroke-width="5"/>
+    <circle cx="15" cy="15" r="6" fill="#e76f3d"/>
+    <circle cx="15" cy="29" r="6" fill="#30465b"/>
+    <circle cx="15" cy="43" r="6" fill="#27745b"/>
+    <path d="M27 15h18M27 29h18M27 43h18" stroke="#213343" stroke-width="4"/>
+    <text x="77" y="39" fill="white" font-family="sans-serif" font-size="29" font-weight="bold" letter-spacing="4">手順台</text>
+  </g>
+  <g transform="translate(105 243)">
+    <text fill="#f4c85c" font-family="sans-serif" font-size="16" font-weight="bold" letter-spacing="5">PHOTO · NUMBER · NOTICE</text>
+    <text y="67" fill="#ffffff" font-family="sans-serif" font-size="45" font-weight="bold">写真を置いて、番号で渡す。</text>
+    <text y="117" fill="#d2dde3" font-family="sans-serif" font-size="21">作業写真は送らず、A4・PDF・編集用ファイルへ</text>
+  </g>
+  <g transform="translate(710 104) rotate(2)" filter="url(#shadow)">
+    <rect width="360" height="430" fill="#fffdf8" stroke="#bcc3c5" stroke-width="6"/>
+    <rect x="25" y="25" width="48" height="48" fill="#30465b"/>
+    <rect x="31" y="31" width="36" height="36" fill="none" stroke="#e76f3d" stroke-width="4"/>
+    <text x="86" y="43" fill="#e76f3d" font-family="sans-serif" font-size="11" font-weight="bold">閉店担当</text>
+    <text x="86" y="65" fill="#213343" font-family="sans-serif" font-size="21" font-weight="bold">閉店後のレジ締め</text>
+    <rect x="25" y="89" width="310" height="32" fill="#e9eef1"/>
+    <rect x="25" y="89" width="62" height="32" fill="#30465b"/>
+    <text x="56" y="110" text-anchor="middle" fill="white" font-family="sans-serif" font-size="11" font-weight="bold">準備</text>
+    <text x="99" y="110" fill="#213343" font-family="sans-serif" font-size="10">集計票・電卓・封筒・鍵</text>
+    <g transform="translate(25 140)">
+      <rect width="115" height="94" fill="#dfe4e6"/>
+      <circle cx="18" cy="76" r="13" fill="#e76f3d" stroke="white" stroke-width="3"/>
+      <text x="18" y="81" text-anchor="middle" fill="white" font-family="serif" font-size="15" font-weight="bold">1</text>
+      <text x="133" y="28" fill="#213343" font-family="sans-serif" font-size="15" font-weight="bold">伝票をそろえる</text>
+      <text x="133" y="50" fill="#65717c" font-family="sans-serif" font-size="10">未処理の伝票がないことを</text>
+      <rect x="133" y="64" width="167" height="24" fill="#e5f0eb" stroke="#27745b"/>
+      <text x="144" y="80" fill="#27745b" font-family="sans-serif" font-size="9" font-weight="bold">確認　返品伝票も確認</text>
+    </g>
+    <g transform="translate(25 253)">
+      <rect width="115" height="94" fill="#dfe4e6"/>
+      <circle cx="18" cy="76" r="13" fill="#e76f3d" stroke="white" stroke-width="3"/>
+      <text x="18" y="81" text-anchor="middle" fill="white" font-family="serif" font-size="15" font-weight="bold">2</text>
+      <text x="133" y="28" fill="#213343" font-family="sans-serif" font-size="15" font-weight="bold">日計を印刷する</text>
+      <text x="133" y="50" fill="#65717c" font-family="sans-serif" font-size="10">本日の集計票を1部印刷</text>
+    </g>
+    <rect x="25" y="373" width="310" height="34" fill="#e5f0eb" stroke="#27745b"/>
+    <circle cx="44" cy="390" r="11" fill="none" stroke="#27745b" stroke-width="2"/>
+    <text x="44" y="395" text-anchor="middle" fill="#27745b" font-family="serif" font-size="13" font-weight="bold">完</text>
+    <text x="65" y="394" fill="#213343" font-family="sans-serif" font-size="10" font-weight="bold">日計と現金が一致したら完了</text>
+  </g>
+</svg>
+
